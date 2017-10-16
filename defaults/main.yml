@@ -1,2 +1,3 @@
 resolver_nameservers: []
 resolver_options: []
+resolver_search_domains: []

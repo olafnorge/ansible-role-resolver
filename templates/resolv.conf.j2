@@ -4,3 +4,6 @@ nameserver {{ n }}
 {% if resolver_options | length %}
 options {{ resolver_options | join(' ') }}
 {% endif %}
+{% if resolver_search_domains | length %}
+search {{ resolver_search_domains | join(' ') }}
+{% endif %}

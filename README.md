@@ -25,6 +25,7 @@ None
 |----------|-------------|---------|
 | `resolver_nameservers` | list of resolvers | `[]` |
 | `resolver_options`     | list of options   | `[]` |
+| `resolver_search_domains`     | list of search domains   | `[]` |
 
 # Dependencies
 
@@ -46,6 +47,9 @@ None
       - timeout:1
       - attempts:1
       - rotate
+    resolver_search_domains:
+      - example.com
+      - example.net
 ```
 
 # License
